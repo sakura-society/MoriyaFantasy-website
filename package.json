@@ -1,0 +1,43 @@
+{
+  "name": "cubusfera.com",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "prepare": "husky install",
+    "lint": "yarn lint:js"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/i18n": "^7.0.3",
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "core-js": "^3.15.1",
+    "nuxt": "^2.15.7",
+    "papaparse": "^5.3.1",
+    "vue-clickaway": "^2.2.2",
+    "vue-meta": "^2.4.0",
+    "vue-scrollto": "^2.20.0",
+    "vue-svg-loader": "^0.16.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.14.7",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@nuxt/content": "^1.15.1",
+    "@nuxtjs/eslint-config": "^6.0.1",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/tailwindcss": "^4.2.0",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.12.1",
+    "husky": "^6.0.0",
+    "postcss": "^8.3.5",
+    "prettier": "^2.3.2",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
